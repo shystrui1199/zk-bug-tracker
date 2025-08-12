@@ -1032,7 +1032,7 @@ In order to prove the (Key, Value) inclusion in the SMT, the state machine repre
 
 As the tree is sparse, the leaf level is not necessarily equal to the key bits length, that means that as soon as the leaf is inserted into the tree, the remaining part of the key (rkey) is being encoded into the leaf value.
 
-The inclusion check algorithm consists of two parts (reference link: https://wiki.polygon.technology/docs/zkEVM/zkProver/basic-smt-ops):
+The inclusion check algorithm consists of two parts (reference link: https://docs.polygon.technology/zkEVM/):
 
 1. Checking The Root - is done as a generic Merkel Tree root check by climbing from the leaf to the root using sibling hashes.
 
